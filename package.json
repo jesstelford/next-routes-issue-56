@@ -1,0 +1,20 @@
+{
+  "name": "next-routes-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jess Telford <jess+github@jes.st>",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production next build",
+    "dev": "NODE_ENV=development yarn next",
+    "start": "NODE_ENV=production yarn next",
+    "next": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "next": "beta",
+    "next-routes": "^1.0.27",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
